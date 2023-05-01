@@ -16,6 +16,7 @@ gem 'coffee-rails', '4.1.0'
 gem 'execjs'
 gem 'therubyracer'
 gem 'bootstrap-sass'
+gem 'popper_js', '~> 2.11.7'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
