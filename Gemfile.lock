@@ -47,6 +47,8 @@ GEM
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
+    bootstrap-will_paginate (0.0.10)
+      will_paginate
     builder (3.2.4)
     byebug (3.4.0)
       columnize (~> 0.8)
@@ -67,6 +69,8 @@ GEM
     debugger-linecache (1.2.0)
     erubis (2.7.0)
     execjs (2.8.1)
+    faker (1.4.2)
+      i18n (~> 0.5)
     ffi (1.12.2)
     formatador (1.1.0)
     globalid (0.4.2)
@@ -211,6 +215,7 @@ GEM
       binding_of_caller (= 0.7.3.pre1)
       railties (~> 4.0)
       sprockets-rails (>= 2.0, < 4.0)
+    will_paginate (3.0.7)
 
 PLATFORMS
   ruby
@@ -219,9 +224,11 @@ DEPENDENCIES
   awesome_print
   bcrypt (= 3.1.13)
   bootstrap-sass
+  bootstrap-will_paginate (= 0.0.10)
   byebug (= 3.4.0)
   coffee-rails (= 4.1.0)
   execjs
+  faker (= 1.4.2)
   guard-minitest (= 2.3.1)
   jbuilder (= 2.2.3)
   jquery-rails (= 4.0.3)
@@ -239,6 +246,7 @@ DEPENDENCIES
   turbolinks (= 2.3.0)
   uglifier (= 2.5.3)
   web-console (= 2.0.0.beta3)
+  will_paginate (= 3.0.7)
 
 BUNDLED WITH
    1.17.3

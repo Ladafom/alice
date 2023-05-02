@@ -17,6 +17,9 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'bootstrap-sass'
 gem 'popper_js', '~> 2.11.7'
+gem 'faker', '1.4.2'
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
